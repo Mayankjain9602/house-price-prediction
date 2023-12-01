@@ -1,0 +1,33 @@
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+/* Main image in popup */
+img.img {
+  width: auto;
+  max-width: 100%;
+  height: auto;
+  display: block;
+  line-height: 0;
+  box-sizing: border-box;
+  padding: 40px 0 40px;
+  margin: 0 auto;
+}
+
+/* The shadow behind the image */
+
+.title {
+  text-align: left;
+  line-height: 18px;
+  color: #f3f3f3;
+  word-wrap: break-word;
+  padding-right: 36px;
+}
+
+@media all and (max-width: 900px) {
+  .container {
+    padding-left: 6px;
+    padding-right: 6px;
+  }
+}

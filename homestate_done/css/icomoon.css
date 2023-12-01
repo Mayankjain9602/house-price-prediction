@@ -1,0 +1,54 @@
+@font-face {
+  font-family: "icomoon";
+  src: url("fonts/icomoon.eot?1oniuf");
+  src: url("fonts/icomoon.eot?1oniuf#iefix") format("embedded-opentype"),
+    url("fonts/icomoon.ttf?1oniuf") format("truetype"),
+    url("fonts/icomoon.woff?1oniuf") format("woff"),
+    url("fonts/icomoon.svg?1oniuf#icomoon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"],
+[class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: "icomoon" !important;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+}
+.icon-globe2:before {
+  content: "\e9b0";
+}
+.icon-heart3:before {
+  content: "\e9b6";
+}
+.icon-home:before {
+  content: "\e9b9";
+}
+.icon-location-pin:before {
+  content: "\e9d2";
+}
+.icon-mail:before {
+  content: "\e9db";
+}
+.icon-paper-plane:before {
+  content: "\e9f3";
+}
+.icon-phone2:before {
+  content: "\e9f5";
+}
+.icon-facebook2:before {
+  content: "\ea68";
+}
+.icon-instagram:before {
+  content: "\ea70";
+}
+.icon-twitter2:before {
+  content: "\ea7d";
+}
+.icon-youtube:before {
+  content: "\ea81";
+}

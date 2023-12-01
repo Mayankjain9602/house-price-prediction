@@ -1,0 +1,613 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>HappyHomez</title>
+
+    <!-- <link rel="shortcut icon" href="favicon.ico" /> -->
+
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700,300"
+      rel="stylesheet"
+      type="text/css"
+    />
+
+    <link rel="stylesheet" href="css/icomoon.css" />
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <link rel="stylesheet" href="css/superfish.css" />
+    <link rel="stylesheet" href="css/flexslider.css" />
+    <link rel="stylesheet" href="css/magnific-popup.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <script defer src="js/main.js"></script>
+  </head>
+
+  <body>
+    <header id="header">
+      <div class="cont container">
+        <div class="d-flex">
+          <button href="#" class="hamburger"><i></i></button>
+          <h1 id="logo">
+            <a href="index.html"
+              ><i class="icon-home"></i>Happy<span>Homez</span></a
+            >
+          </h1>
+        </div>
+        <nav>
+          <ul class="menu" id="primary-menu">
+            <li class="nav-item active">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="agent.html">Agents</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+          </ul>
+        </nav>
+        <nav id="menu-wrap">
+          <ul class="menu">
+            <li class="nav-item active">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="agent.html">Agents</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+
+
+    <main id="wrapper">
+      <div id="page">
+        <aside id="hero">
+          <div class="carousel">
+            <div class="carousel-images">
+              <ul class="slides">
+                <li style="background-image: url(images/img_bg_1.jpg)"></li>
+                <li style="background-image: url(images/img_bg_2.jpg)"></li>
+                <li style="background-image: url(images/img_bg_3.jpg)"></li>
+              </ul>
+            </div>
+            <div class="carousel-dots">
+              <span class="dot active"></span>
+              <span class="dot"></span>
+              <span class="dot"></span>
+            </div>
+          </div>
+        </aside>
+        <div id="search-map">
+          <div class="search-property">
+            <div class="s-holder">
+              <h2>Search Properties</h2>
+              <div class="row">
+                <div class="col-xxs-12 col-xs-12">
+                  <div class="input-field">
+                    <label for="from">Location:</label>
+                    <select class="form-control" id="loc">
+                      <option value="-2">Choose Location</option>
+                      <option value="0">Indira Nagar</option>
+                      <option value="1">1st Phase JP Nagar</option>
+                      <option value="2">1st Block Jayanagar</option>
+                      <option value="3">Whitefield</option>
+                      <option value="4">Sarjapur Road</option>
+                      <option value="5">Electronic City</option>
+                      <option value="6">Raja Rajeshwari Nagar</option>
+                      <option value="7">Uttarahalli</option>
+                      <option value="8">Haralur Road</option>
+                      <option value="9">Marathahalli</option>
+                      <option value="10">Bannerghatta Road</option>
+                      <option value="11">Hennur Road</option>
+                      <option value="12">Thanisandra</option>
+                      <option value="13">Hebbal</option>
+                      <option value="14">Electronics City Phase 1</option>
+                      <option value="15">Jakkur</option>
+                      <option value="16">Ramamurthy Nagar</option>
+                      <option value="17">Varthur</option>
+                      <option value="18">HSR Layout</option>
+                      <option value="19">Hulimavu</option>
+                      <option value="20">Budigere</option>
+                      <option value="21">Kundalahalli</option>
+                      <option value="22">Ramagondanahalli</option>
+                      <option value="23">Koramangala</option>
+                      <option value="24">Kaggadasapura</option>
+                      <option value="25">Malleshwaram</option>
+                      <option value="26">8th Phase JP Nagar</option>
+                      <option value="27">Hoodi</option>
+                      <option value="28">Yeshwanthpur</option>
+                      <option value="29">JP Nagar</option>
+                      <option value="30">Hegde Nagar</option>
+                      <option value="31">Kengeri</option>
+                      <option value="32">Bisuvanahalli</option>
+                      <option value="33">Channasandra</option>
+                      <option value="34">Gottigere</option>
+                      <option value="35">Indira Nagar</option>
+                      <option value="36">Vittasandra</option>
+                      <option value="37">Attibele</option>
+                    </select>
+                  </div>
+                </div>
+                <div class="col-xxs-12 col-xs-12">
+                  <div class="input-field">
+                    <label for="from">Total area in sq. ft.:</label>
+                    <input
+                    id="area"
+                      type="text"
+                      class="form-control"
+                      placeholder="Any"
+                    />
+                  </div>
+                </div>
+                <div class="col-xxs-12 col-xs-12">
+                  <div class="input-field">
+                    <label for="from">Bathrooms:</label>
+                    <select id="bath" class="form-control">
+                      <option value="-2">Choose a value:</option>
+                      <option value="0">1</option>
+                      <option value="1">2</option>
+                      <option value="2">3</option>
+                      <option value="3">4</option>
+                      <option value="4">5</option>
+                    </select>
+                  </div>
+                </div>
+                <div class="col-xxs-12 col-xs-12">
+                  <div class="input-field">
+                    <label for="from">BHK:</label>
+                    <select id="bhk" class="form-control">
+                      <option value="-2">Choose a value:</option>
+                      <option value="0">1</option>
+                      <option value="1">2</option>
+                      <option value="2">3</option>
+                      <option value="3">4</option>
+                      <option value="4">5</option>
+                    </select>
+                  </div>
+                </div>
+                <div class="col-xxs-12 col-xs-12 text-center">
+                  <p>
+                    <a class="btn btn-primary" href="#search-map" onclick="getPrice()">Get Pricing</a>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="map"
+            style="background-image: url(images/cover_bg_1.jpg)"
+          ></div>
+        </div>
+
+
+        <div id="popular-properties" class="section-gray">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-8 col-md-offset-2 text-center heading-section">
+                <h3>Popular Properties</h3>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-4">
+                <a
+                  href="#"
+                  class="property"
+                  style="background-image: url(images/property-1.jpg)"
+                >
+                  <span class="status">SALE</span>
+                  <div class="prop-details">
+                    <h3>Properties Near in Sarjapur Road</h3>
+                  </div>
+                </a>
+              </div>
+              <div class="col-md-4">
+                <a
+                  href="#"
+                  class="property"
+                  style="background-image: url(images/property-2.jpg)"
+                >
+                  <span class="status">SALE</span>
+                  <div class="prop-details">
+                    <h3>Modern House at Raja Rajeshwari Nagar</h3>
+                  </div>
+                </a>
+              </div>
+              <div class="col-md-4">
+                <a
+                  href="#"
+                  class="property"
+                  style="background-image: url(images/property-3.jpg)"
+                >
+                  <span class="status">SALE</span>
+                  <div class="prop-details">
+                    <h3>Bonggalo House in Indiranagar</h3>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+        <div id="properties" class="section-gray">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-8 col-md-offset-2 text-center heading-section">
+                <h3>Newest Properties</h3>
+                <!-- <p>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Velit est facilis maiores, perspiciatis accusamus asperiores
+                  sint consequuntur debitis.
+                </p> -->
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-4">
+                <div class="property">
+                  <a
+                    href="#"
+                    class="property"
+                    style="background-image: url(images/property-1.jpg)"
+                  >
+                    <span class="status">SALE</span>
+                    <ul class="list-details">
+                      <li>2000 ft sq</li>
+                      <li></li>
+                      <li>5 Bedroom:</li>
+                      <li>4 Bathroom:</li>
+                    </ul>
+                  </a>
+                  <div class="property-details">
+                    <h3>Best Properties</h3>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="property">
+                  <a
+                    href="#"
+                    class="property"
+                    style="background-image: url(images/property-2.jpg)"
+                  >
+                    <span class="status">SALE</span>
+                    <ul class="list-details">
+                      <li>2000 ft sq</li>
+                      <li></li>
+                      <li>5 Bedroom:</li>
+                      <li>4 Bathroom:</li>
+                      <!-- <li>3 Garage:</li> -->
+                    </ul>
+                  </a>
+                  <div class="property-details">
+                    <h3>Modern House</h3>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="property">
+                  <a
+                    href="#"
+                    class="property"
+                    style="background-image: url(images/property-3.jpg)"
+                  >
+                    <span class="status">SALE</span>
+                    <ul class="list-details">
+                      <li>2000 ft sq</li>
+                      <li></li>
+                      <li>5 Bedroom:</li>
+                      <li>4 Bathroom:</li>
+                      <!-- <li>3 Garage:</li> -->
+                    </ul>
+                  </a>
+                  <div class="property-details">
+                    <h3>Bonggalo House</h3>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="property">
+                  <a
+                    href="#"
+                    class="property"
+                    style="background-image: url(images/property-4.jpg)"
+                  >
+                    <span class="status">SALE</span>
+                    <ul class="list-details">
+                      <li>2000 ft sq</li>
+                      <li></li>
+                      <li>5 Bedroom:</li>
+                      <li>4 Bathroom:</li>
+                      <!-- <li>3 Garage:</li> -->
+                    </ul>
+                  </a>
+                  <div class="property-details">
+                    <h3>Properties at Electronic City Phase 1</h3>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="property">
+                  <a
+                    href="#"
+                    class="property"
+                    style="background-image: url(images/property-5.jpg)"
+                  >
+                    <span class="status">SALE</span>
+                    <ul class="list-details">
+                      <li>2000 ft sq</li>
+                      <li></li>
+                      <li>5 Bedroom:</li>
+                      <li>4 Bathroom:</li>
+                      <!-- <li>3 Garage:</li> -->
+                    </ul>
+                  </a>
+                  <div class="property-details">
+                    <h3>Modern Properties</h3>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="property">
+                  <a
+                    href="#"
+                    class="property"
+                    style="background-image: url(images/property-6.jpg)"
+                  >
+                    <span class="status">SALE</span>
+                    <ul class="list-details">
+                      <li>2000 ft sq</li>
+                      <li></li>
+                      <li>5 Bedroom:</li>
+                      <li>4 Bathroom:</li>
+                      <!-- <li>3 Garage:</li> -->
+                    </ul>
+                  </a>
+                  <div class="property-details">
+                    <h3>House at the Top of Mountain</h3>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+
+        <div id="about" class="agent">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-8 col-md-offset-2 text-center heading-section">
+                <h3>Our Agents</h3>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Velit est facilis maiores, perspiciatis accusamus asperiores
+                  sint consequuntur debitis.
+                </p>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-sm-3 text-center">
+                <div class="staff">
+                  <img class="img-responsive" src="images/user-1.jpg" />
+                  <h3>Jean Smith</h3>
+                  <p>
+                    Quos quia provident consequuntur culpa facere ratione maxime
+                    commodi voluptates id repellat
+                  </p>
+                  <p class="social-icons">
+                    <a href="#"><i class="icon-twitter2"></i></a>
+                    <a href="#"><i class="icon-facebook2"></i></a>
+                    <a href="#"><i class="icon-instagram"></i></a>
+                    <a href="#"><i class="icon-youtube"></i></a>
+                  </p>
+                </div>
+              </div>
+              <div class="col-sm-3 text-center">
+                <div class="staff">
+                  <img class="img-responsive" src="images/user-2.jpg" />
+                  <h3>Hush Raven</h3>
+                  <p>
+                    Quos quia provident consequuntur culpa facere ratione maxime
+                    commodi voluptates id repellat
+                  </p>
+                  <p class="social-icons">
+                    <a href="#"><i class="icon-twitter2"></i></a>
+                    <a href="#"><i class="icon-facebook2"></i></a>
+                    <a href="#"><i class="icon-instagram"></i></a>
+                    <a href="#"><i class="icon-youtube"></i></a>
+                  </p>
+                </div>
+              </div>
+              <div class="col-sm-3 text-center">
+                <div class="staff">
+                  <img class="img-responsive" src="images/user-3.jpg" />
+                  <h3>Alex King</h3>
+                  <p>
+                    Quos quia provident consequuntur culpa facere ratione maxime
+                    commodi voluptates id repellat
+                  </p>
+                  <p class="social-icons">
+                    <a href="#"><i class="icon-twitter2"></i></a>
+                    <a href="#"><i class="icon-facebook2"></i></a>
+                    <a href="#"><i class="icon-instagram"></i></a>
+                    <a href="#"><i class="icon-youtube"></i></a>
+                  </p>
+                </div>
+              </div>
+              <div class="col-sm-3 text-center">
+                <div class="staff">
+                  <img class="img-responsive" src="images/user-4.jpg" />
+                  <h3>Hush Raven</h3>
+                  <p>
+                    Quos quia provident consequuntur culpa facere ratione maxime
+                    commodi voluptates id repellat
+                  </p>
+                  <p class="social-icons">
+                    <a href="#"><i class="icon-twitter2"></i></a>
+                    <a href="#"><i class="icon-facebook2"></i></a>
+                    <a href="#"><i class="icon-instagram"></i></a>
+                    <a href="#"><i class="icon-youtube"></i></a>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+
+        <div id="contact" class="contact">
+          <div class="half-contact">
+            <div class="container-fluid">
+              <div class="row">
+                <div
+                  class="col-md-12 col-md-offset-0 text-center heading-section"
+                >
+                  <h3>Ask an agent, We're here to help 24/7</h3>
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Velit est facilis maiores, perspiciatis accusamus asperiores
+                    sint consequuntur debitis.
+                  </p>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-12">
+                  <div class="row">
+                    <div class="col-md-12">
+                      <div class="form-group">
+                        <input
+                          type="text"
+                          class="form-control"
+                          placeholder="Name"
+                        />
+                      </div>
+                    </div>
+                    <div class="col-md-12">
+                      <div class="form-group">
+                        <input
+                          type="text"
+                          class="form-control"
+                          placeholder="Email"
+                        />
+                      </div>
+                    </div>
+                    <div class="col-md-12">
+                      <div class="form-group">
+                        <textarea
+                          name=""
+                          class="form-control"
+                          id=""
+                          cols="30"
+                          rows="7"
+                          placeholder="Message"
+                        ></textarea>
+                      </div>
+                    </div>
+                    <div class="col-md-12">
+                      <div class="form-group">
+                        <input
+                          type="submit"
+                          value="Send Message"
+                          class="btn btn-primary"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="half-bg"
+            style="background-image: url(images/cover_bg_2.jpg)"
+          ></div>
+        </div>
+      </div>
+    </main>
+
+
+    <footer>
+      <div id="footer">
+        <div class="container">
+          <div class="row row-bottom-padded-md">
+            <div class="col-md-3">
+              <h3 class="section-title">About HappyHomez</h3>
+              <p>
+                Far far away, behind the word mountains, far from the countries
+                Vokalia and Consonantia, there live the blind texts. Separated
+                they live in Bookmarksgrove right at the coast of the Semantics.
+              </p>
+            </div>
+            <div class="col-md-3 col-md-push-1">
+              <h3 class="section-title">Links</h3>
+              <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Agent</a></li>
+                <li><a href="#">FAQ / Contact</a></li>
+              </ul>
+            </div>
+            <div class="col-md-3">
+              <h3 class="section-title">Information</h3>
+              <ul>
+                <li><a href="#">Terms &amp; Condition</a></li>
+                <li><a href="#">License</a></li>
+                <li><a href="#">Privacy &amp; Policy</a></li>
+                <li><a href="#">Contact Us</a></li>
+              </ul>
+            </div>
+            <div class="col-md-3">
+              <h3 class="section-title">Newsletter</h3>
+              <p>Subscribe for our newsletter</p>
+              <form class="form-inline" id="header-subscribe">
+                <div class="row">
+                  <div class="col-md-12 col-md-offset-0">
+                    <div class="form-group">
+                      <input
+                        type="text"
+                        class="form-control"
+                        id="email"
+                        placeholder="Enter your email"
+                      />
+                      <button type="submit" class="btn btn-default">
+                        <i class="icon-paper-plane"></i>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-12">
+              <p class="social-icons">
+                <a href="#"><i class="icon-twitter2"></i></a>
+                <a href="#"><i class="icon-facebook2"></i></a>
+                <a href="#"><i class="icon-instagram"></i></a>
+                <a href="#"><i class="icon-youtube"></i></a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/jquery.easing.1.3.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.waypoints.min.js"></script>
+    <script src="js/sticky.js"></script>
+    <script src="js/hoverIntent.js"></script>
+    <script src="js/superfish.js"></script>
+    <script src="js/jquery.flexslider-min.js"></script>
+    <script src="js/bootstrap-datepicker.min.js"></script>
+    <script src="js/classie.js"></script>
+    <script src="js/selectFx.js"></script>
+
+  </body>
+</html>
